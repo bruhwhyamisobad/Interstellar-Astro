@@ -1,12 +1,12 @@
 {
   "$schema": "https://biomejs.dev/schemas/2.2.4/schema.json",
 
-  "assists": { 
-    "actions": { 
-      "source": { 
-        "organizeImports": "on" 
-      } 
-    } 
+  "assists": {
+    "actions": {
+      "source": {
+        "organize_imports": "on"
+      }
+    }
   },
 
   "linter": {
