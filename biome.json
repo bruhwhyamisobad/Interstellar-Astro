@@ -3,9 +3,7 @@
 
   "assists": {
     "actions": {
-      "source": {
-        "organize_imports": "on"
-      }
+      "source": { }
     }
   },
 
@@ -21,7 +19,7 @@
     "indentStyle": "space",
     "indentWidth": 2,
     "lineEnding": "lf",
-    "lineWidth": 320,
+    "lineWidth": 320",
     "attributePosition": "auto",
     "include": ["**", "!**/pnpm-lock.yaml", "!**/dist/**", "!**/node_modules/**", "!**/assets/bundled/**", "!**/.astro/**"]
   },
