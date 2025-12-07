@@ -3,26 +3,19 @@
 
   "assists": {
     "actions": {
-      "source": {
-        "fixAll": true
-      }
+      "source": {}
     }
   },
 
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true,
-      "correctness": {
-        "noUnusedImports": "error",
-        "noUnusedVariables": "error"
-      }
+      "recommended": true
     },
     "include": ["**", "!pnpm-lock.yaml", "!dist/**", "!node_modules/**", "!assets/bundled/**", "!.astro/**"]
   },
 
   "formatter": {
-    "enabled": true,
     "indentStyle": "space",
     "indentWidth": 2,
     "lineEnding": "lf",
